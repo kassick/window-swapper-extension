@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema id="org.gnome.shell.extensions.window-swapper" path="/org/gnome/shell/extensions/window-swapper/">
+        <key name="swap-windows-left" type="as">
+            <default><![CDATA[['<Ctrl><Super><Shift>Left']]]></default>
+            <summary>Swap windows on current monitor with the ones on the monitor to the left</summary>
+        </key>
+        <key name="swap-windows-right" type="as">
+            <default><![CDATA[['<Ctrl><Super><Shift>Right']]]></default>
+            <summary>Swap windows on current monitor with the ones on the monitor to the right</summary>
+        </key>
+        <key name="swap-windows-up" type="as">
+            <default><![CDATA[['<Ctrl><Super><Shift>Up']]]></default>
+            <summary>Swap windows on current monitor with the ones on the monitor up</summary>
+        </key>
+        <key name="swap-windows-down" type="as">
+            <default><![CDATA[['<Ctrl><Super><Shift>Down']]]></default>
+            <summary>Swap windows on current monitor with the ones on the monitor down</summary>
+        </key>
+    </schema>
+</schemalist>

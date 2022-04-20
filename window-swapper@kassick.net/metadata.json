@@ -1,0 +1,8 @@
+{
+  "name": "Window Monitor Swapper",
+  "description": "Swap windows in the visible monitors",
+  "uuid": "window-swapper@kassick.net",
+  "shell-version": [
+    "41"
+  ]
+}
